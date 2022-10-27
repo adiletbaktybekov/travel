@@ -1,0 +1,49 @@
+@import "./src/styles/style";
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@600&family=Montserrat&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+a, a:hover, Link {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: rgba(30, 32, 36, 0.97);
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #797979;
+    border-radius: 5px;
+  }
+}
+
+body, html {
+  scroll-behavior: smooth;
+}
+
+button, input {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@600&family=Montserrat&display=swap');
+
+#travel {
+  font-family: 'Montserrat', sans-serif;
+  background: url("../../assets/images/travelmenu.png") no-repeat center/cover;
+  height: 100vh;
+
+  .travel {
+    width: 100%;
+
+    &-first {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        width: 40%;
+        font-weight: 700;
+        font-size: 36px;
+        padding-top: 130px;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+      }
+
+      &-desc {
+        display: flex;
+        justify-content: end;
+        margin: 3rem;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+
+    }
+  }
+}
+
+#travel-card {
+  .travel-second {
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 36px;
+      color: #FFFFFF;
+    }
+
+    &-global {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      &-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+        margin: 50px 0 50px 0;
+        background: #FFFFFF;
+        width: 320px;
+        border-radius: 15px;
+
+        &-new {
+          position: absolute;
+          background: #FF091E;
+          padding: 10px 15px;
+          border-radius: 0 15px;
+          &-sold {
+            padding: 20px 30px;
+            border: 3px solid #FF091E;
+            border-radius: 10px;
+            transform: rotate(30deg);
+            margin: 80px 70px;
+            background: transparent;
+            text-decoration-color: red;
+            &-desc {
+              color: #FF091E;
+              font-weight: bolder;
+              font-size: 22px;
+            }
+          }
+          &-p{
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+          }
+        }
+
+        &-asset {
+
+          img {
+            padding: 0;
+            border-radius: 15px 15px 0 0;
+            width: 320px;
+            height: 240px;
+          }
+        }
+
+        &-info {
+          padding: 10px 15px;
+
+          &-top {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+            &-icon {
+              color: #9099A3;
+              width: 25px;
+              height: 25px;
+            }
+
+            p {
+              font-size: 12px;
+              line-height: 18px;
+              margin: 5px 15px 0 5px;
+              color: #9099A3;
+            }
+          }
+
+          h3 {
+            font-weight: 700;
+            font-size: 18px;
+            color: #2C3E50;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #2C3E50;
+          }
+
+          &-link {
+            display: flex;
+            justify-content: end;
+
+            button {
+              font-size: 14px;
+              border: none;
+              color: #FFFFFF;
+              background:#0096C7;
+              border-radius: 15px;
+              text-align: right;
+              padding: 10px 40px;
+              margin: 50px 10px 20px 0;
+            }
+            &-icon {
+              margin: -3px 10px
+            }
+          }
+        }
+      }
+    }
+  }
+}

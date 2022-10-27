@@ -1,0 +1,116 @@
+@media (max-width: 1024px) {
+  #travel {
+    height: 30rem;
+  }
+  #travel .travel-first h1 {
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 912px) {
+  #travel {
+    height: 30rem;
+  }
+  #travel .travel-first h1 {
+    font-size: 34px;
+    padding-top: 60px;
+  }
+
+  #travel .travel-first p {
+    font-size: 16px;
+  }
+
+  #travel .travel-first-desc {
+    margin: 2rem;
+    font-size: 13px;
+    color: #FFFFFF;
+  }
+
+  #travel-card .travel-second h1 {
+    font-size: 33px;
+    margin-top: -80px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  #travel {
+    height: 30rem;
+  }
+  #travel .travel-first h1 {
+    font-size: 33px;
+    padding-top: 80px;
+    width: 100%;
+  }
+
+  #travel .travel-first p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  #travel .travel-first-desc {
+    margin: 2rem;
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+
+  #travel-card .travel-second h1 {
+    font-size: 33px;
+    margin-top: -80px;
+  }
+
+}
+
+
+@media (max-width: 540px) {
+  #travel {
+    height: 40rem;
+  }
+  #travel .travel-first {
+    text-align: center;
+  }
+  #travel .travel-first h1 {
+    padding-top: 10rem;
+    width: 100%;
+  }
+  #travel .travel-first p {
+    width: 100%;
+  }
+  #travel-card .travel-second-global {
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 425px) {
+  #travel .travel-first h1 {
+    font-size: 30px;
+  }
+  #travel .travel-first p {
+    font-size: 13px;
+    width: 100%;
+  }
+  #travel-card .travel-second h1 {
+    font-size: 30px;
+    margin-top: -120px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  #travel .travel-first-desc {
+    margin: 2rem -1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #travel-card .travel-second-global-block {
+    width: 300px;
+  }
+  #travel-card .travel-second-global-block-asset img {
+    width: 300px;
+  }
+  #travel-card .travel-second-global-block-new-sold-desc {
+    font-size: 20px;
+  }
+}
